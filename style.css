@@ -1,396 +1,465 @@
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px;
-    }
-    
-    nav a {
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    nav ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        padding: 0;
-        margin: 0 auto;
-    }
-    
-    nav li {
-        margin: 0 25px;
-        font-weight: 500;
-        font-size: 1.3rem;
-    }
-    
-    .nav li:last-child {
-        margin-right: 0;
-    }
-    
-    .school {
-        font-size: 2rem;
-        font-weight: 700;
-        margin-left: 10px;
-    }
-    
-    .home {
-        color: orange;
-    }
-    
-    .about {
-        color: skyblue;
-    }
-    
-    .facilities {
-        color: #05D4DF;
-    }
-    
-    .admission {
-        color: #5D58EF;
-    }
-    
-    .logo-image {
-        width: 65px;
-        height: 62px;
-        margin-right: 10px;
-    }
-    
-    .logo {
-        display: flex;
-        align-items: center;
-    }
-    
-    .btn1 {
-        width: 197px;
-        height: 50px;
-        background-color: orange;
-        color: white;
-        border-radius: 10px;
-    }
-    
-    .btn2 {
-        background-color: black;
-        color: white;
-        width: 197px;
-        height: 50px;
-        border-radius: 10px;
-    }
-    
-    .empower {
-        color: orange;
-        font-size: 3.5rem;
-    }
-    
-    .students {
-        color: black;
-        font-size: 3.5rem;
-    }
-    
-    .towards {
-        color: skyblue;
-        font-size: 3.5rem;
-    }
-    
-    .kid1 {
-        width: 311px;
-        height: 575px;
-    }
-    
-    .kid {
-        display: flex;
-        align-items: center;
-    }
-    
-    .hero {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        flex-direction: row-reverse;
-        margin-right: 200px;
-    }
-    
-    .vision {
-        max-width: 500px;
-        margin-right: 20px;
-    }
-    
-    .standard {
-        font-size: 3rem;
-        text-align: center;
-    }
-    
-    .p2 {
-        font-size: 1.5rem;
-    }
-    
-    .p4 {
-        color: #64C8FF;
-    }
-    
-    .p5 {
-        margin-left: 150px;
-    }
-    
-    .p6 {
-        color: #F0AA00;
-        margin-left: 150px;
-    }
-    
-    .p7 {
-        margin-left: 150px;
-    }
-    
-    .p8 {
-        color: #8700FF;
-        margin-left: 150px;
-    }
-    
-    .images {
-        display: flex;
-        align-items: center;
-    }
-    
-    .kinder1 {
-        margin-left: 130px;
-        background-color: linear white;
-    }
-    
-    .elementary {
-        margin-left: 150px;
-    }
-    
-    .middle {
-        margin-left: 150px;
-    }
-    
-    .arrows {
-        display: flex;
-        text-align: center;
-    }
-    
-    .arrows {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-    }
-    
-    .arrow1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 50px;
-        height: 50px;
-        color: white;
-        background-color: orange;
-        border-radius: 50%;
-    }
-    
-    .arrow2 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 50px;
-        height: 50px;
-        color: white;
-        background-color: orange;
-        border-radius: 50%;
-    }
-    
-    .stories {
-        font-size: 3rem;
-        text-align: center;
-    }
-    
-    .images2 {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-    }
-    
-    .images3 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-    
-    .btn3 {
-        color: white;
-        background-color: black;
-        position: relative;
-        left: 500px;
-        width: 190px;
-        height: 48px;
-        border-radius: 20px;
-        font-size: 1.3rem;
-    }
-    
-    .education {
-        font-size: 2rem;
-        font-weight: 500;
-        margin-left: 10px;
-        color: #FFFFFF;
-    }
-    
-    footer a {
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    footer ul {
-        justify-content: center;
-        list-style: none;
-        padding: 0;
-        margin: 0 auto;
-    }
-    
-    footer {
-        background-color: #01ACFD;
-    }
-    
-    .p10 {
-        color: white;
-    }
-    
-    .ul1 {
-        color: white;
-    }
-    
-    .li1 {
-        color: white;
-        font-size: 1.5rem;
-    }
-    
-    .keep {
-        color: white;
-        font-size: 1.5rem;
-    }
-    
-    .p11 {
-        font-size: 1.5rem;
-        margin-left: 150px;
-    }
-    
-    .p12 {
-        font-size: 1.5rem;
-        margin-left: 150px;
-    }
-    
-    .p13 {
-        font-size: 1.5rem;
-    }
-    
-    .btn11 {
-        position: relative;
-        top: -205px;
-        left: 40px;
-        width: 170px;
-        height: 48px;
-        border-radius: 15px;
-        background-color: #95B226;
-        color: white;
-    }
-    
-    .btn12 {
-        position: relative;
-        top: -100px;
-        left: 40px;
-        width: 170px;
-        height: 48px;
-        border-radius: 15px;
-        background-color: #95B226;
-        color: white;
-    }
-    
-    .btn13 {
-        position: relative;
-        top: -100px;
-        left: 40px;
-        width: 170px;
-        height: 48px;
-        border-radius: 15px;
-        background-color: #3CD8E8;
-        color: white;
-    }
-    
-    .btn14 {
-        position: relative;
-        top: -100px;
-        left: 40px;
-        width: 170px;
-        height: 48px;
-        border-radius: 15px;
-        background-color: #95B226;
-        color: white;
-    }
-    
-    .btn15 {
-        position: relative;
-        top: -100px;
-        left: 40px;
-        width: 170px;
-        height: 48px;
-        border-radius: 15px;
-        background-color: #95B226;
-        color: white;
-    }
-    
-    body {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-    
-    img {
-        max-width: 100%;
-    }
-    
-    @media screen and (max-width: 576px) {
         nav {
-            flex-direction: column;
-            align-items: flex-start;
-            padding: 15px 0;
-        }
-        nav ul {
-            flex-direction: column;
-            gap: 12px;
-        }
-        .images {
-            flex-direction: column;
-            gap: 15px;
-        }
-        .vision {
-            margin: 0 auto;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-        }
-        footer ul {
-            flex-direction: column;
-        }
-        footer img {
-            display: inline-block;
-            margin: 10px;
-        }
-    }
-    
-    @media screen and (min-width:576px) and (max-width: 960px) {
-        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 0 20px;
         }
-        .images {
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
+        
+        nav a {
+            text-decoration: none;
+            color: inherit;
         }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+        }
+        
+        nav li {
+            margin: 0 25px;
+            font-weight: 500;
+            font-size: 1.3rem;
+        }
+        
+        .nav li:last-child {
+            margin-right: 0;
+        }
+        
+        .school {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+        
+        .home {
+            color: orange;
+        }
+        
+        .about {
+            color: skyblue;
+        }
+        
+        .facilities {
+            color: #05D4DF;
+        }
+        
+        .admission {
+            color: #5D58EF;
+        }
+        
+        .logo-image {
+            width: 65px;
+            height: 62px;
+            margin-right: 10px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .btn1 {
+            width: 197px;
+            height: 50px;
+            background-color: orange;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .btn2 {
+            background-color: black;
+            color: white;
+            width: 197px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        
+        .empower {
+            color: orange;
+            font-size: 3.5rem;
+        }
+        
+        .students {
+            color: black;
+            font-size: 3.5rem;
+        }
+        
+        .towards {
+            color: skyblue;
+            font-size: 3.5rem;
+        }
+        
+        .kid1 {
+            width: 311px;
+            height: 575px;
+        }
+        
+        .kid {
+            display: flex;
+            align-items: center;
+        }
+        
         .hero {
-            flex-direction: column-reverse;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            flex-direction: row-reverse;
+            margin-right: 200px;
+        }
+        
+        .vision {
+            max-width: 500px;
+            margin-right: 20px;
+        }
+        
+        .standard {
+            font-size: 3rem;
             text-align: center;
         }
-        .vision {
-            margin: 15px auto
+        
+        .p2 {
+            font-size: 1.5rem;
         }
-    }
+        
+        .p4 {
+            color: #64C8FF;
+        }
+        
+        .p5 {
+            margin-left: 150px;
+        }
+        
+        .p6 {
+            color: #F0AA00;
+            margin-left: 150px;
+        }
+        
+        .p7 {
+            margin-left: 150px;
+        }
+        
+        .p8 {
+            color: #8700FF;
+            margin-left: 150px;
+        }
+        
+        .images {
+            display: flex;
+            align-items: center;
+        }
+        
+        .kinder1 {
+            margin-left: 130px;
+            background-color: linear white;
+        }
+        
+        .elementary {
+            margin-left: 150px;
+        }
+        
+        .middle {
+            margin-left: 150px;
+        }
+        
+        .arrows {
+            display: flex;
+            text-align: center;
+        }
+        
+        .arrows {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+        }
+        
+        .arrow1 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            color: white;
+            background-color: orange;
+            border-radius: 50%;
+        }
+        
+        .arrow2 {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            color: white;
+            background-color: orange;
+            border-radius: 50%;
+        }
+        
+        .stories {
+            font-size: 3rem;
+            text-align: center;
+        }
+        
+        .images2 {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .images3 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        .btn3 {
+            color: white;
+            background-color: black;
+            position: relative;
+            left: 500px;
+            width: 190px;
+            height: 48px;
+            border-radius: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .education {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-left: 10px;
+            color: #FFFFFF;
+        }
+        
+        footer {}
+        
+        footer a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        footer ul {
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+        }
+        
+        footer {
+            background-color: #01ACFD;
+        }
+        
+        .p10 {
+            color: white;
+        }
+        
+        .ul1 {
+            color: white;
+        }
+        
+        .li1 {
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        .keep {
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        .p11 {
+            font-size: 1.5rem;
+            margin-left: 150px;
+        }
+        
+        .p12 {
+            font-size: 1.5rem;
+            margin-left: 150px;
+        }
+        
+        .p13 {
+            font-size: 1.5rem;
+        }
+        
+        .btn11 {
+            position: relative;
+            top: -205px;
+            left: 40px;
+            width: 170px;
+            height: 48px;
+            border-radius: 15px;
+            background-color: #95B226;
+            color: white;
+        }
+        
+        .btn12 {
+            position: relative;
+            top: -100px;
+            left: 40px;
+            width: 170px;
+            height: 48px;
+            border-radius: 15px;
+            background-color: #95B226;
+            color: white;
+        }
+        
+        .btn13 {
+            position: relative;
+            top: -100px;
+            left: 40px;
+            width: 170px;
+            height: 48px;
+            border-radius: 15px;
+            background-color: #3CD8E8;
+            color: white;
+        }
+        
+        .btn14 {
+            position: relative;
+            top: -100px;
+            left: 40px;
+            width: 170px;
+            height: 48px;
+            border-radius: 15px;
+            background-color: #95B226;
+            color: white;
+        }
+        
+        .btn15 {
+            position: relative;
+            top: -100px;
+            left: 40px;
+            width: 170px;
+            height: 48px;
+            border-radius: 15px;
+            background-color: #95B226;
+            color: white;
+        }
+        
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .logo-image-1 {
+            margin-bottom: 160px;
+        }
+        
+        .kinder {
+            background-color: #DEF5FF
+        }
+        
+        .kinder2 {
+            background-color: #FFF4DC;
+        }
+        
+        .kinder3 {
+            background-color: #F2E8FF;
+        }
+        
+        @media screen and (max-width: 576px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+                background-image: url('./images/hamburger.jpg');
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .kid1,
+            .kid,
+            .hero {
+                flex-direction: column;
+            }
+            .images {
+                flex-direction: column;
+                align-items: center;
+            }
+            .vision {
+                padding: 10px;
+                text-align: center;
+                position: relative;
+                left: 100px;
+            }
+            footer {
+                flex-direction: column;
+                text-align: center;
+                /*padding: 0px;*/
+                text-align: justify;
+            }
+            footer ul {
+                flex-direction: column;
+                text-align: justify;
+            }
+            footer img {
+                display: inline-block;
+                /*margin: 0px;*/
+            }
+            footer .logo {
+                display: flex;
+                flex-direction: column;
+            }
+            footer .p10 {
+                display: flex;
+                flex-direction: column;
+                text-align: justify;
+            }
+            .kinder1,
+            .kinder2,
+            .kinder3 {
+                flex-direction: column;
+                position: relative;
+                right: 50px;
+            }
+            .kinder {
+                background-color: #DEF5FF;
+            }
+            .kinder2 {
+                background-color: #FFF4DC;
+            }
+            .arrows {
+                display: none;
+            }
+            .im1 {
+                display: none;
+            }
+            .im2,
+            .im3,
+            .im4,
+            .im5 {
+                display: grid;
+                grid-template-columns: (2, 1fr);
+            }
+            .im3 {
+                background-image: url("./images/story-3.png");
+                background-repeat: repeat;
+            }
+        }
+        
+        @media screen and (min-width:576px) and (max-width: 992px) {
+            nav {
+                padding: 0 20px;
+            }
+            .images {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+            .hero {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+            .vision {
+                margin-left: 20px;
+            }
+        }

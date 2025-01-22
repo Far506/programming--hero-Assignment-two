@@ -212,6 +212,7 @@
             display: flex;
             gap: 10px;
             align-items: center;
+            margin-left: 10px;
         }
         
         .images3 {

@@ -10,6 +10,10 @@
             color: inherit;
         }
         
+        .menu {
+            display: none;
+        }
+        
         nav ul {
             display: flex;
             justify-content: center;
@@ -373,8 +377,16 @@
                 background-image: url('./images/hamburger.jpg');
             }
             nav ul {
-                flex-direction: column;
-                gap: 12px;
+                display: none;
+            }
+            .btn1 {
+                display: none;
+            }
+            .menu {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: end;
+                align-items: end;
             }
             .kid1,
             .kid,

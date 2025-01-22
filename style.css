@@ -212,7 +212,7 @@
             display: flex;
             gap: 10px;
             align-items: center;
-            margin-left: 10px;
+            margin-left: 120px;
         }
         
         .images3 {
@@ -452,6 +452,8 @@
             .im5 {
                 display: grid;
                 grid-template-columns: (2, 1fr);
+                position: relative;
+                right: 150px;
             }
             .im3 {
                 background-image: url("./images/story-3.png");
